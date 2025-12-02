@@ -46,7 +46,7 @@ ul {
   color: #404bbf;
 }
 
-.site.address {
+.site-address {
   font-style: normal;
 }
 
@@ -68,6 +68,7 @@ ul {
 .page-title {
   font-weight: bold;
   font-size: 56px;
+  letter-spacing: 0.02em;
   line-height: 1.07;
 }
 
@@ -90,6 +91,7 @@ ul {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
@@ -99,6 +101,7 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -106,7 +109,7 @@ ul {
   background-color: #f4f4fd;
 }
 
-.team.card {
+.team-card {
   background-color: #ffffff;
 }
 
