@@ -1,10 +1,10 @@
 body {
   color: #434455;
   background-color: #ffffff;
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 ul {
@@ -12,9 +12,9 @@ ul {
 }
 
 .link {
-  font-weight: medium;
+  font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -25,14 +25,16 @@ ul {
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .logo-header {
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.logo-part {
-  color: #4d5ae5;
+.logo-part-header {
+  color: #2e2f42;
 }
 
 .nav-links .link {
@@ -41,17 +43,20 @@ ul {
 
 .nav-links .link:hover,
 .nav-links .link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+
+.site.address {
+  font-style: normal;
 }
 
 .address-links .link {
-  font-style: normal;
   color: #434455;
 }
 
 .address-links .link:hover,
 .address-links .link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .hero-image {
@@ -63,32 +68,37 @@ ul {
 .page-title {
   font-weight: bold;
   font-size: 56px;
-  letter-spacing: 2%;
   line-height: 1.07;
 }
 
 .order-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   background-color: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: currentColor;
   cursor: pointer;
 }
 
-.order-button:hover {
+.order-button:hover,
+.order-button:focus {
   background-color: #404bbf;
 }
 
 .section-title {
   font-weight: bold;
   font-size: 36px;
-  letter-spacing: 2%;
+  line-height: 1.11;
   color: #2e2f42;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .sub-section-header {
-  font-weight: medium;
+  font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  line-height: 1.2;
   color: #2e2f42;
 }
 
@@ -96,10 +106,17 @@ ul {
   background-color: #f4f4fd;
 }
 
+.team.card {
+  background-color: #ffffff;
+}
+
 .page-footer {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
 .logo-footer {
-  color: currentColor;
+  color: #4d5ae5;
+}
+.logo-part-footer {
+  color: #f4f4fd;
 }
